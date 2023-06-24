@@ -33,7 +33,7 @@
     background-size: cover; */
     font-family: "Jost", sans-serif;
     font-weight: 400;
-    @apply leading-relaxed text-white sm:text-sm md:text-sm lg:text-sm xl:text-sm;
+    @apply text-white sm:text-sm md:text-sm lg:text-base xl:text-base;
   }
   h1,
   h2,
