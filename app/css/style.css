@@ -702,6 +702,10 @@ h1,
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.images.kaizo{
+  background-image: url('../images/wallpaper-kaizo.jpeg');
+}
+
 .footer{
   margin-left: auto;
   margin-right: auto;
@@ -737,12 +741,28 @@ h1,
   }
 }
 
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .absolute{
   position: absolute;
 }
 
 .relative{
   position: relative;
+}
+
+.sticky{
+  position: sticky;
 }
 
 .bottom-0{
@@ -763,6 +783,10 @@ h1,
 
 .z-40{
   z-index: 40;
+}
+
+.z-\[9999\]{
+  z-index: 9999;
 }
 
 .mx-auto{
@@ -794,6 +818,10 @@ h1,
 
 .ml-4{
   margin-left: 1rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
 }
 
 .mt-0{
@@ -1218,6 +1246,11 @@ h1,
   color: rgb(79 70 229 / var(--tw-text-opacity));
 }
 
+.text-slate-400{
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1303,6 +1336,11 @@ h1,
 .hover\:text-pink-500:hover{
   --tw-text-opacity: 1;
   color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.hover\:text-slate-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
@@ -1395,6 +1433,11 @@ h1,
 
 .group:focus .group-focus\:block{
   display: block;
+}
+
+:is(.dark .dark\:hover\:text-slate-300:hover){
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 @media (min-width: 360px){

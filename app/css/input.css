@@ -73,6 +73,9 @@
 }
 
 @layer components {
+  .images.kaizo {
+    @apply bg-[url('../images/wallpaper-kaizo.jpeg')];
+  }
   .roadmap-section {
     @apply mx-auto my-7 block max-w-xl space-y-3 rounded-xl bg-gradient-to-r from-purple-700 p-2 shadow-xl;
   }
