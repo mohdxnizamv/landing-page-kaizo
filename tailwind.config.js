@@ -14,6 +14,10 @@ module.exports = {
     },
     extend: {
       colors: {},
+      backgroundImage: {
+        "hero-pattern": "url('../images/wallpaper-kaizo.jpeg')",
+        "footer-texture": "url('../images/')",
+      },
     },
   },
   plugins: [],

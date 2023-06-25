@@ -1069,6 +1069,10 @@ h1,
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/images\/wallpaper-kaizo\.jpeg\'\)\]{
+  background-image: url('../images/wallpaper-kaizo.jpeg');
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -1187,10 +1191,6 @@ h1,
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-black\/95{
-  color: rgb(0 0 0 / 0.95);
 }
 
 .text-gray-500{
