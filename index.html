@@ -112,7 +112,7 @@
       </div>
     </div>
 
-    <div class="sticky top-0 z-[9999]">
+    <div class="sticky top-0 z-[9999]" x-data="{dropdownMenu: false}">
       <nav
         class="hidden w-full items-center justify-center gap-5 bg-black/80 py-3 font-semibold md:flex"
       >
@@ -123,6 +123,7 @@
           <a href="" class="hover:text-pink-500">Accessories</a>
 
           <button
+            @click="dropdownMenu = ! dropdownMenu"
             class="group relative flex items-center justify-center shadow ring-black/50 focus:outline-none focus:ring"
           >
             <p class="px-4 hover:text-pink-500">Catalogue</p>
@@ -143,35 +144,43 @@
             </svg>
 
             <div
-              class="absolute top-full mt-1 hidden w-max min-w-full rounded bg-black/80 shadow-md group-focus:block"
+              class="absolute left-0 mt-[250px] w-44 rounded-md bg-black/80 p-2 py-2 shadow"
+              x-show="dropdownMenu"
             >
-              <ul class="rounded border text-left">
-                <li
-                  class="border-b px-4 py-1 hover:bg-black/50 hover:text-pink-500"
-                >
-                  Catalogue V1
-                </li>
-                <li
-                  class="border-b px-4 py-1 hover:bg-black/50 hover:text-pink-500"
-                >
-                  Catalogue V2
-                </li>
-                <li
-                  class="border-b px-4 py-1 hover:bg-black/50 hover:text-pink-500"
-                >
-                  Catalogue V3
-                </li>
-                <li
-                  class="border-b px-4 py-1 hover:bg-black/50 hover:text-pink-500"
-                >
-                  Motorcycle
-                </li>
-                <li
-                  class="border-b px-4 py-1 hover:bg-black/50 hover:text-pink-500"
-                >
-                  Fishing
-                </li>
-              </ul>
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm hover:bg-black/50 hover:text-pink-500"
+              >
+                Catalogue V1
+              </a>
+
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm hover:bg-black/50 hover:text-pink-500"
+              >
+                Catalogue V2
+              </a>
+
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm hover:bg-black/50 hover:text-pink-500"
+              >
+                Catalogue V3
+              </a>
+
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm hover:bg-black/50 hover:text-pink-500"
+              >
+                Motorcycle
+              </a>
+
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm hover:bg-black/50 hover:text-pink-500"
+              >
+                Fishing
+              </a>
             </div>
           </button>
         </div>
@@ -295,8 +304,10 @@
     </section>
     <script src="./app/js/script.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
     <script>
       AOS.init();
     </script>
