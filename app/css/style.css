@@ -777,10 +777,6 @@ h1,
   top: 0px;
 }
 
-.top-full{
-  top: 100%;
-}
-
 .z-40{
   z-index: 40;
 }
@@ -852,42 +848,6 @@ h1,
   margin-top: 2rem;
 }
 
-.mt-44{
-  margin-top: 11rem;
-}
-
-.mt-48{
-  margin-top: 12rem;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
-}
-
-.mt-52{
-  margin-top: 13rem;
-}
-
-.mt-56{
-  margin-top: 14rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
-}
-
-.mt-64{
-  margin-top: 16rem;
-}
-
-.mt-60{
-  margin-top: 15rem;
-}
-
-.mt-\[\]{
-  margin-top: ;
-}
-
 .mt-\[250px\]{
   margin-top: 250px;
 }
@@ -944,6 +904,10 @@ h1,
   width: 1rem;
 }
 
+.w-44{
+  width: 11rem;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -962,19 +926,6 @@ h1,
 
 .w-full{
   width: 100%;
-}
-
-.w-max{
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-44{
-  width: 11rem;
-}
-
-.min-w-full{
-  min-width: 100%;
 }
 
 .max-w-4xl{
@@ -1085,20 +1036,12 @@ h1,
   border-radius: 0.375rem;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-0{
   border-width: 0px;
 }
 
 .border-2{
   border-width: 2px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
 }
 
 .border-b-2{
@@ -1145,12 +1088,12 @@ h1,
   background-image: url('../images/wallpaper-kaizo.jpeg');
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .p-2{
   padding: 0.5rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .px-0{
@@ -1183,6 +1126,11 @@ h1,
   padding-bottom: 3rem;
 }
 
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1203,11 +1151,6 @@ h1,
   padding-bottom: 2rem;
 }
 
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .pb-8{
   padding-bottom: 2rem;
 }
@@ -1222,10 +1165,6 @@ h1,
 
 .pt-40{
   padding-top: 10rem;
-}
-
-.text-left{
-  text-align: left;
 }
 
 .text-center{
@@ -1319,12 +1258,6 @@ h1,
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-md{
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-sm{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -1394,11 +1327,6 @@ h1,
 .hover\:text-slate-500:hover{
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
-.hover\:text-sky-500:hover{
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
@@ -1487,10 +1415,6 @@ h1,
 
 .focus\:ring-offset-2:focus{
   --tw-ring-offset-width: 2px;
-}
-
-.group:focus .group-focus\:block{
-  display: block;
 }
 
 :is(.dark .dark\:hover\:text-slate-300:hover){
